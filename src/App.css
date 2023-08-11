@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.weather-bg{
+
+background: url("https://cdn.pixabay.com/photo/2021/03/11/02/57/mountain-6086083_1280.jpg");
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+font: bolder;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.WeatherResultbox{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+margin: auto;
+width: 500px;
+height: 350px;
 }
+.Cloud-icon{
+height: 100px;
+width: 100px;
+margin-top: 1.5rem;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.weather-city{
+font-size: 30px;
 
-.App-link {
-  color: #61dafb;
+
 }
+.weather-temprature{
+font-size: 55px;
+font-weight: 700;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.weather-bg h1{
+background-color: rgb(10, 10, 50);
+border-radius: 10px;
+
 }
